@@ -1,0 +1,11 @@
+App(
+    appid="fm1_boot_key",
+    name="FM1 Recovery",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="fm1_boot_key_app",
+    stack_size=4096,
+    fap_category="Tools",
+    fap_version="0.8",
+    fap_icon="icon.png",
+    sources=["fm1_boot_key.c"],
+)

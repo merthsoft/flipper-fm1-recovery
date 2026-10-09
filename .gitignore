@@ -1,0 +1,9 @@
+.env
+.ufbt/
+dist/
+.vscode/
+__pycache__/
+.local/
+.venv/
+*.bin
+*.fwsc
